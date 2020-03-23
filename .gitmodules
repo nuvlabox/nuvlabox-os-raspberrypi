@@ -2,11 +2,11 @@
 	path = layers/poky
 	url = git://git.yoctoproject.org/poky
 	branch = master
-[submodule "layers/meta-raspberrypi"]
-	path = layers/meta-raspberrypi
-	url = git@github.com:agherzan/meta-raspberrypi.git
-	branch = master
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
+	branch = master
+[submodule "layers/meta-raspberrypi"]
+	path = layers/meta-raspberrypi
+	url = https://git.yoctoproject.org/git/meta-raspberrypi
 	branch = master

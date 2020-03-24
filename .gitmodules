@@ -10,3 +10,7 @@
 	path = layers/meta-raspberrypi
 	url = https://git.yoctoproject.org/git/meta-raspberrypi
 	branch = master
+[submodule "layers/meta-nuvlabox-os"]
+	path = layers/meta-nuvlabox-os
+	url = https://github.com/nuvlabox/meta-nuvlabox-os.git
+	branch = master

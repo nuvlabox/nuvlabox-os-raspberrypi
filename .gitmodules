@@ -14,3 +14,7 @@
 	path = layers/meta-nuvlabox-os
 	url = https://github.com/nuvlabox/meta-nuvlabox-os.git
 	branch = master
+[submodule "layers/meta-virtualization"]
+	path = layers/meta-virtualization
+	url = https://git.yoctoproject.org/git/meta-virtualization
+	branch = zeus

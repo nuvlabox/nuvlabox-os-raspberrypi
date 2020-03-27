@@ -12,4 +12,10 @@ IMAGE_FEATURES += "splash"
 inherit core-image
 
 # install docker-ce
-IMAGE_INSTALL_append = " docker-ce wpa-supplicant openssh firewall iptables ansible u-boot"
+IMAGE_INSTALL_append = " docker-ce \
+                        python3-docker-compose \
+                        wpa-supplicant \
+                        openssh \
+                        iptables \
+                        ansible \
+                        u-boot"

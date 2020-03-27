@@ -4,10 +4,12 @@
 
 SUMMARY = "NuvlaBox OS image for *Pi"
 LICENSE = "Apache-2.0"
+HOMEPAGE = "https://sixsq.com"
 
 REQUIRED_DISTRO_FEATURES += " systemd"
+IMAGE_FEATURES += "splash"
 
-inherit core-image-base
+inherit core-image
 
 # remove x11 distro and consider virtualization distro from meta-virtualization
 DISTRO_FEATURES_append = " systemd virtualization"

@@ -2,6 +2,13 @@
 # NuvlaBox specific
 #
 
+SUMMARY = "NuvlaBox OS image for *Pi"
+LICENSE = "Apache-2.0"
+
+REQUIRED_DISTRO_FEATURES += " systemd"
+
+inherit core-image-base
+
 # remove x11 distro and consider virtualization distro from meta-virtualization
 DISTRO_FEATURES_append = " systemd virtualization"
 DISTRO_FEATURES_remove = "x11 wayland"

@@ -7,7 +7,7 @@ LICENSE = "Apache-2.0"
 HOMEPAGE = "https://sixsq.com"
 
 REQUIRED_DISTRO_FEATURES += " systemd"
-IMAGE_FEATURES += "splash"
+IMAGE_FEATURES += "splash ssh-server-openssh"
 
 inherit core-image
 
@@ -15,7 +15,6 @@ inherit core-image
 IMAGE_INSTALL_append = " docker-ce \
                         python3-docker-compose \
                         wpa-supplicant \
-                        openssh \
                         iptables \
                         ansible \
                         u-boot \

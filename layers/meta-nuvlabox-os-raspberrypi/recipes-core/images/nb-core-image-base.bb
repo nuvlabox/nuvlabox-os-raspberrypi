@@ -18,4 +18,5 @@ IMAGE_INSTALL_append = " docker-ce \
                         openssh \
                         iptables \
                         ansible \
-                        u-boot"
+                        u-boot \
+                        kernel-modules"

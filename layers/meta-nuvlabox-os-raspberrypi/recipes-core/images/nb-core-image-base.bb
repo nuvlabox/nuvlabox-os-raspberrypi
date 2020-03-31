@@ -20,4 +20,5 @@ IMAGE_INSTALL_append = " docker-ce \
                         u-boot \
                         kernel-modules \
                         init-resize \
-                        userlandtools"
+                        userlandtools \
+                        networkmanager"

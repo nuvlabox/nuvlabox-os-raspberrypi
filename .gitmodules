@@ -1,15 +1,15 @@
 [submodule "layers/poky"]
 	path = layers/poky
 	url = git://git.yoctoproject.org/poky
-	branch = zeus
+	branch = master
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
-	branch = zeus
+	branch = master
 [submodule "layers/meta-raspberrypi"]
 	path = layers/meta-raspberrypi
 	url = https://git.yoctoproject.org/git/meta-raspberrypi
-	branch = zeus
+	branch = master
 [submodule "layers/meta-nuvlabox-os"]
 	path = layers/meta-nuvlabox-os
 	url = https://github.com/nuvlabox/meta-nuvlabox-os.git
@@ -17,4 +17,4 @@
 [submodule "layers/meta-virtualization"]
 	path = layers/meta-virtualization
 	url = https://git.yoctoproject.org/git/meta-virtualization
-	branch = zeus
+	branch = master

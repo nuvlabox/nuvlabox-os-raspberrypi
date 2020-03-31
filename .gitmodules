@@ -18,3 +18,7 @@
 	path = layers/meta-virtualization
 	url = https://git.yoctoproject.org/git/meta-virtualization
 	branch = master
+[submodule "layers/meta-homebridge"]
+	path = layers/meta-homebridge
+	url = git://github.com/leon-anavi/meta-homebridge.git
+	branch = master

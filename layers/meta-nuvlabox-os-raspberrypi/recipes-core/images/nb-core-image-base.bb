@@ -6,8 +6,8 @@ SUMMARY = "NuvlaBox OS image for *Pi"
 LICENSE = "Apache-2.0"
 HOMEPAGE = "https://sixsq.com"
 
-REQUIRED_DISTRO_FEATURES += " systemd"
-IMAGE_FEATURES += "splash ssh-server-openssh"
+REQUIRED_DISTRO_FEATURES += " systemd linux-firmware-rpidistro"
+IMAGE_FEATURES += "splash ssh-server-openssh package-management"
 
 inherit core-image
 
@@ -18,4 +18,6 @@ IMAGE_INSTALL_append = " docker-ce \
                         iptables \
                         ansible \
                         u-boot \
-                        kernel-modules"
+                        kernel-modules \
+                        init-resize \
+                        userlandtools"

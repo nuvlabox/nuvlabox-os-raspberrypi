@@ -15,6 +15,7 @@ inherit core-image
 IMAGE_INSTALL_append = " docker-ce \
                         python3-docker-compose \
                         cronie \
+                        swarm \
                         iptables \
                         ansible \
                         u-boot \

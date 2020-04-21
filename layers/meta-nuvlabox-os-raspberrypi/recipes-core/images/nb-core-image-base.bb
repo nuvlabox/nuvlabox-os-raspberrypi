@@ -11,6 +11,8 @@ IMAGE_FEATURES += "ssh-server-openssh package-management"
 
 inherit core-image
 
+MACHINE_FEATURES_remove = "apm"
+
 # install docker-ce
 IMAGE_INSTALL_append = " docker-ce \
                         python3-docker-compose \
